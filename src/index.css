@@ -5,9 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background-color: #e8e8e8; /* Light gray background for code */
+  color: #555; /* Dark gray text color for code */
 }
