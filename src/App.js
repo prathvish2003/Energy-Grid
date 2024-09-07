@@ -74,7 +74,7 @@ const App = () => {
       </header>
       <main>
         <section className="intro-section">
-          <h2>About Smart Grid</h2>
+          <h2 style={"color : orange"}>About Smart Grid</h2>
           <p>
             Smart Grid is a decentralized energy management system built on
             blockchain technology. It enables efficient energy distribution,
