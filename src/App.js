@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import Web3 from 'web3';
-import Producer from './Producer';
-import Consumer from './Consumer';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import Web3 from "web3";
+import Producer from "./Producer";
+import Consumer from "./Consumer";
+import "./App.css";
 
 const App = () => {
   const [web3, setWeb3] = useState(null);
@@ -26,10 +26,12 @@ const App = () => {
         }
         // Non-dapp browsers
         else {
-          setError('Non-Ethereum browser detected. You should consider trying MetaMask!');
+          setError(
+            "Non-Ethereum browser detected. You should consider trying MetaMask!"
+          );
         }
-      } catch(error){
-        console.log("some error")
+      } catch (error) {
+        console.log("some error");
       }
     };
 
@@ -55,13 +57,28 @@ const App = () => {
     <div className="container">
       <header>
         <h1>Welcome to Smart Grid!</h1>
+        <p>
+          📄 Check out the related research paper on Smart Grid here:
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/10625244"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IEEE Paper
+          </a>
+        </p>
+        <h2>
+          True essence of this project resides in the smart contracts, which you
+          can find in the repository and the reseach paper attached.{" "}
+        </h2>
       </header>
       <main>
         <section className="intro-section">
           <h2>About Smart Grid</h2>
           <p>
-            Smart Grid is a decentralized energy management system built on blockchain technology.
-            It enables efficient energy distribution, consumption tracking, and renewable energy integration.
+            Smart Grid is a decentralized energy management system built on
+            blockchain technology. It enables efficient energy distribution,
+            consumption tracking, and renewable energy integration.
           </p>
         </section>
         <section className="features-section">
@@ -75,10 +92,10 @@ const App = () => {
         </section>
       </main>
       {accounts.length > 0 && (
-        <div>
-         
-        </div>
+        <div>{/* Additional content based on account availability */}</div>
       )}
+      {/* Adding the link to the paper with the paper emoji */}
+      <footer className="footer"></footer>
     </div>
   );
 };
