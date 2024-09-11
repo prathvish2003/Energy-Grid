@@ -4,106 +4,47 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* White background */
+  background-color: #fbea02; /* Light gray background */
   color: #444; /* Dark gray text color */
-  transition: background-color 0.3s ease;
-}
-
-body:hover {
-  background-color: #f9f9f9; /* Slight background change on hover */
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-  transition: box-shadow 0.3s ease;
-}
-
-.container:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhances the shadow on hover */
+  background-color: #f10808; /* White background */
 }
 
 header h1 {
   font-size: 2.5rem;
-  color: #05ec47; /* Bright green text color */
+  color: #05ec47; /* Blue text color */
   text-align: center;
-  margin-bottom: 20px;
-  transition: color 0.3s ease;
-}
-
-header h1:hover {
-  color: #34a853; /* Darker green on hover */
 }
 
 .intro-section,
 .features-section {
   margin-bottom: 30px;
-  transition: transform 0.3s ease;
-}
-
-.intro-section:hover,
-.features-section:hover {
-  transform: scale(1.02); /* Slight zoom on hover */
 }
 
 .intro-section h2,
 .features-section h2 {
   font-size: 1.8rem;
-  color: orange; /* Yellow text color */
+  color: orange;
+  color: #e5ec26;
   margin-bottom: 10px;
-  transition: color 0.3s ease;
-}
-
-.intro-section h2:hover,
-.features-section h2:hover {
-  color: #d4af37; /* Darker gold on hover */
 }
 
 .features-section ul {
   list-style-type: none;
-  padding: 0;
 }
 
 .features-section li {
   margin-bottom: 8px;
-  padding: 8px;
-  background-color: #f7f7f7;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.features-section li:hover {
-  background-color: #e7e7e7; /* Slightly darker background on hover */
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s ease, border-bottom 0.3s ease;
-}
-
-a:hover {
-  color: #0056b3; /* Darker blue on hover */
-  border-bottom: 1px solid #0056b3;
 }
 
 .footer {
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid #de0707;
-  background-color: #ffffff;
-  margin-top: 40px;
-}
-
-.footer p {
-  font-size: 1.2rem;
-  color: #444;
-  transition: color 0.3s ease;
-}
-
-.footer p:hover {
-  color: #888; /* Lighter gray on hover */
+  background-color: #d008d7; /* Light gray background */
 }

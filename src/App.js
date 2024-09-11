@@ -57,16 +57,7 @@ const App = () => {
     <div className="container">
       <header>
         <h1>Welcome to Smart Grid!</h1>
-        /* <p>
-          📄 Check out the related research paper on Smart Grid here:
-          <a
-            href="https://ieeexplore.ieee.org/abstract/document/10625244"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IEEE Paper
-          </a>
-        </p> */
+
         <h2>
           True essence of this project resides in the smart contracts, which you
           can find in the repository and the reseach paper attached.{" "}
@@ -74,7 +65,7 @@ const App = () => {
       </header>
       <main>
         <section className="intro-section">
-          <h2 style={"color : orange"}>About Smart Grid</h2>
+          <h2>About Smart Grid</h2>
           <p>
             Smart Grid is a decentralized energy management system built on
             blockchain technology. It enables efficient energy distribution,
