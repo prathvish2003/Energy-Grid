@@ -57,7 +57,7 @@ const App = () => {
     <div className="container">
       <header>
         <h1>Welcome to Smart Grid!</h1>
-        <p>
+        /* <p>
           📄 Check out the related research paper on Smart Grid here:
           <a
             href="https://ieeexplore.ieee.org/abstract/document/10625244"
@@ -66,7 +66,7 @@ const App = () => {
           >
             IEEE Paper
           </a>
-        </p>
+        </p> */
         <h2>
           True essence of this project resides in the smart contracts, which you
           can find in the repository and the reseach paper attached.{" "}
